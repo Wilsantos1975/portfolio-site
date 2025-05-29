@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "## Overview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 3000",
+    "build": "tailwindcss -i ./src/input.css -o ./styles/main.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./styles/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wilsantos1975/portfolio-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wilsantos1975/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/Wilsantos1975/portfolio-site#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "http-server": "^14.1.1",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.0"
+  }
+}
